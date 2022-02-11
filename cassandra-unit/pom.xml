@@ -123,9 +123,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.datastax.oss</groupId>
+            <groupId>com.yugabyte</groupId>
             <artifactId>java-driver-core</artifactId>
-            <version>${cu.cassandra.driver.version}</version>
+            <version>4.6.0-yb-10</version>
             <optional>true</optional>
         </dependency>
 
