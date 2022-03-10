@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.cassandraunit</groupId>
+        <groupId>com.yugabyte</groupId>
         <artifactId>cassandra-unit-parent</artifactId>
         <version>4.3.1.1-SNAPSHOT</version>
     </parent>
@@ -31,7 +31,7 @@
                             <artifactSet>
                                 <includes>
                                     <!-- included only to suppress dependency, not relocated -->
-                                    <include>org.cassandraunit:cassandra-unit</include>
+                                    <include>com.yugabyte:cassandra-unit</include>
 
                                     <!-- included due to relocated sub-dependencies, but itself not relocated because Class.forName -->
                                     <include>org.apache.cassandra:cassandra-all</include>
@@ -121,7 +121,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.cassandraunit</groupId>
+            <groupId>com.yugabyte</groupId>
             <artifactId>cassandra-unit</artifactId>
             <version>${project.version}</version>
             <exclusions>
