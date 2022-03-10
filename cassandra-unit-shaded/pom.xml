@@ -3,7 +3,7 @@
     <parent>
         <groupId>com.yugabyte</groupId>
         <artifactId>cassandra-unit-parent</artifactId>
-        <version>4.3.1.0-yb-1</version>
+        <version>4.3.1.0-yb-2-SNAPSHOT</version>
     </parent>
     <artifactId>cassandra-unit-shaded</artifactId>
     <description>Shaded version of cassandra-unit</description>
